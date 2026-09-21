@@ -25,11 +25,6 @@ Si vous disposez du fichier exécutable compilé de l'application :
    ```text
    http://localhost:8080
 
-## 📸 Capture d'écran
-
-![Capture de l'application](screenshot.png)
-
----
 
 ## ✨ Fonctionnalités
 
