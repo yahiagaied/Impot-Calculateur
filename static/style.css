@@ -1,0 +1,37 @@
+         body {
+            background-color: #c5f1bd;
+        }
+
+         .card {
+            transition: transform 0.3s;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            
+        }
+         .hero {
+            background: linear-gradient(135deg, #0d6efd, #0dcaf0);
+            color: white;
+            padding: 50px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+        }
+
+         footer {
+            margin-top: 50px;
+        }
+
+         .card img {
+            height: 250px;
+            object-fit: cover;
+        }
+    .btn {
+         padding: 10px 25px;
+         }
+   
+    
+
+    .card:hover {
+        transform: translateY(-10px);
+        transition: 0.3s;
+    }
+    
+        

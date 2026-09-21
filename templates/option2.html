@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title> Formulaire </title>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN : Bootstrap CSS and JS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Bundle JS includes Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <h1><p class="bg-primary text-white text-center p-3">😉 Calcul de l'Impôt sur le Revenu :</p></h1>
+    <form  method="post" class="container" action="/traitement2">
+        <div class="mb-3">
+            <p class="bg-info text-white p-1">Veuillez remplir tous les champs :</p>
+            <label for="vh" class="form-label text-danger">Montant Hors Taxe :</label>
+            <input type="text" class="form-control" id="vh" name="vh" required placeholder="Entrez votre valeur hors taxe en dinars">
+        </div>
+        <div class="mb-3">
+            <label for="vttc" class="form-label text-danger">Montant TTC :</label>
+            <input type="text" class="form-control" id="vttc" name="vttc" required placeholder="Entrez votre valeur TTC en dinars">
+        </div>
+        <div class="mb-3">
+            <label for="tva" class="form-label text-danger"> Montant de TVA :</label>
+            <input type="text" class="form-control" id="tva" name="tva" required placeholder="Entrez le montant de TVA en dinars">
+        </div>
+        
+        <button type="submit" class="btn btn-outline-success btn-lg"> 📅 Calculer</button>
+        <button type="reset" class="btn btn-outline-secondary btn-lg"> 🔄 Réinitialiser</button>
+    </form>
+    </form>
+    <center><a href="index.html" class="btn btn-outline-primary btn-lg mt-3">🏠 Retour à l'accueil</a></center>
+    
+</body>
+</html>
+     
