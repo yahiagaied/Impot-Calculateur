@@ -53,7 +53,7 @@ git clone https://github.com/yahiagaied/Impot-Calculateur.git
 ### Accéder au dossier
 
 ```bash
-cd calculimpot
+cd Impot-Calculateur
 ```
 
 ### Lancer l'application
